@@ -9,10 +9,10 @@
 
 .header {
   position: fixed;
-  top: 10px; left: 0;
+  top: 0px; left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: #652b02;
+  background: #de4f15;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,7 @@
 }
 
 .navbar a:hover {
-  color: #b00141;
+  color: #f6d8b3;
 }
 
 .inicio {
@@ -65,10 +65,11 @@
   position: relative;
   bottom: 15px; right: 15px;
   color: white;
-  background: #b00141;
+  background: linear-gradient(#ff4f3b, #ff7300);
   border-radius: 20px;
   height: 80px; width: 65%;
   padding: 10px 10px 10px 40px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .inicio-conteudo p {
@@ -90,27 +91,28 @@
   align-items: center;
   width: 150px;
   height: 100%;
-  background: #652b02;
+  background: linear-gradient(#ff4f3b, #ff7300);
   color: white;
   border-radius: 10px;
   font-size: 18px;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  transition: color 0.5s;
 }
 
+
 .btn-conteudo a:hover {
-  background: #b00141;
-  color: #ffffff;
+  background: #fe250c;
   cursor: pointer;
 }
 
 .header-2 {
-  height: 100%;
+  position: fixed;
+  top: 93%; left: 0;
+  width: 100%;
   justify-content: space-between;
   display: flex;
   width: 100%;
   padding: 20px 10%;
-  background-color: #652b02;
+  background-color: #de4f15;
   color: white;
 }
-
